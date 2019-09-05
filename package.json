@@ -1,0 +1,21 @@
+{
+  "name": "qrcode-webcomponent",
+  "version": "1.0.0",
+  "description": "A webcomponent to generate qrcodes",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francesco Sacchi",
+  "license": "MIT",
+  "dependencies": {
+    "lit-element": "^2.2.1",
+    "qrcode": "^1.4.1"
+  },
+  "devDependencies": {
+    "rollup": "^1.20.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
