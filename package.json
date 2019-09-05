@@ -4,7 +4,7 @@
   "description": "A webcomponent to generate qrcodes",
   "main": "index.js",
   "scripts": {
-    "build": "rollup -c rollup.config.js",
+    "build": "rollup -c rollup.config.js && cp _headers build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Francesco Sacchi",
